@@ -37,6 +37,7 @@ Our project inspires us to solve many real world problem like autonomous robotic
   <img src = "https://github.com/zeus2x7/DL-Inverse-kinematics/blob/main/images/neural%20network.png" alt = "Neural Network"><br>fig3 <i>Neural Network</i></p>
 
   * <p align = "justify"><b>Adam</b> - Adam means Adaptative Moment Estimation. It will be used as the optimizer in this project for neural network weights and biases updatation </p>
+ <p align = "center">
   <img src = "https://github.com/zeus2x7/DL-Inverse-kinematics/blob/main/images/adam%20optimizer.png" alt = "Adam optimizer"><br>fig4 <i>Adam optimizer</i></p>
   * <p align = "justify"><b>MAE</b> - MAE or Mean Absolute Error is the loss function to be used in this model</p>
   <p align = "center">
