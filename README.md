@@ -63,7 +63,7 @@ At the current state, our project has a few limitations :
 ## Future Improvements
 In future, we plan to :
 * <p align = "justify">decrease losses further by taking the domains of the function to be mimicked by the neural network </p>
-* <p align = "justify">implement <b><i>This Approach for 3 or even more DOF</i></b>
+* <p align = "justify">implement <b>this Approach for 3 or even more DOF</b>
 
 
 
