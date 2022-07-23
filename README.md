@@ -52,3 +52,44 @@ Our project inspires us to solve many real world problem like autonomous robotic
 | NumPy | Open-Source/None |
 | Tensorflow | Open-Source/None |
 
+## Applications
+<p align = "justify">This project can be used to develop a robotic arm with 2 degree of freedom. </p>
+
+## Limitations
+At the current state, our project has a few limitations :
+* <p align = "justify">At present the model is limited only for 2d.</p>
+
+
+## Future Improvements
+In future, we plan to :
+* <p align = "justify">decrease losses further by taking the domains of the function to be mimicked by the neural network </p>
+* <p align = "justify">implement <b><i>This Approach for 3 or even more DOF</i></b>
+
+
+
+## Team Members
+* [Aditya Raj](https://github.com/zeus2x7)
+* [Rajib Das](https://github.com/dasrajib02)
+
+## Mentors
+* [Apurba Prasad Padhy](https://github.com/apurba-pp)
+* [Tushar Sahu](https://github.com/tushdon2)
+
+## References
+* Python :
+  * [Youtube/freeCodeCamp.org](https://www.youtube.com/watch?v=rfscVS0vtbw)
+  * [Programiz](https://www.programiz.com/python-programming)
+  * [W3Schools](https://www.w3schools.com/python/)
+* Deep Neural Network :
+  * [Youtube/3blue1brown](https://www.youtube.com/watch?v=aircAruvnKk)
+  * [Youtube/Andrew Ng Deep Neural Network](https://www.youtube.com/watch?v=CS4cs9xVecg&list=PLpFsSf5Dm-pd5d3rjNtIXUHT-v7bdaEIe)
+  * [Tutorials Point](https://www.tutorialspoint.com/python_deep_learning/python_deep_learning_deep_neural_networks.htm)
+  * [Towards Data Science](https://towardsdatascience.com/code-a-deep-neural-network-a5fd26ec41c4)
+* Tensorflow :
+  * [Tensorflow docs](https://www.tensorflow.org/learn)
+* Streamlit :
+  * [Streamlit docs](https://docs.streamlit.io/)
+
+
+
+
