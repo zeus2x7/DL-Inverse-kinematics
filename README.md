@@ -19,7 +19,7 @@ Our project inspires us to solve many real world problem like autonomous robotic
 
 <p align = "center">
 <img src = "https://github.com/zeus2x7/DL-Inverse-kinematics/blob/main/images/robotic%20arm.jpg" alt = "robotic arm">
-<br>fig4 <i>robotic arm</i></p>
+<br>fig2 <i>robotic arm</i></p>
 
 ## Software Aspect of the Design
 ### Tech Stack
@@ -34,5 +34,5 @@ Our project inspires us to solve many real world problem like autonomous robotic
   * <p align = "justify"><b>Epochs</b> - A complete pass through the whole training dataset while training is referred as a epoch, you can control that how much your model gets trained by controlling the number of epochs or complete passes.</p>
   * <p align = "justify"><b>Neural Network</b> - Artificial neural networks (ANNs) are comprised of a node layers, containing an input layer, one or more hidden layers, and an output layer. Each node, or artificial neuron, connects to another and has an associated weight and threshold.</p>
  <p align = "center">
-  <img src = "https://github.com/zeus2x7/DL-Inverse-kinematics/blob/main/images/neural%20network.png" alt = "Neural Network"><br>fig5 <i>Neural Network</i></p>
+  <img src = "https://github.com/zeus2x7/DL-Inverse-kinematics/blob/main/images/neural%20network.png" alt = "Neural Network"><br>fig3 <i>Neural Network</i></p>
 
