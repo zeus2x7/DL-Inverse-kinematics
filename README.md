@@ -2,7 +2,7 @@
 ## Open Projects 2022
 
 <p align = "center">
-<img src = "https://github.com/zeus2x7/DL-Inverse-kinematics/blob/main/images/webapp3.png" alt = "cover image">
+<img src = "https://github.com/zeus2x7/DL-Inverse-kinematics/blob/main/Images%20and%20Videos/images/webapp3.png" alt = "cover image">
 <br>fig1 <i>cover image</i> <br></br>
 
 
@@ -18,7 +18,7 @@ Our project inspires us to solve many real world problem like autonomous robotic
 </p>
 
 <p align = "center">
-<img src = "https://github.com/zeus2x7/DL-Inverse-kinematics/blob/main/images/robotic%20arm.jpg" alt = "robotic arm">
+<img src = "https://github.com/zeus2x7/DL-Inverse-kinematics/blob/main/Images%20and%20Videos/images/robotic%20arm.jpg" alt = "robotic arm">
 <br>fig2 <i>robotic arm</i></p>
 
 ## Software Aspect of the Design
@@ -34,14 +34,14 @@ Our project inspires us to solve many real world problem like autonomous robotic
   * <p align = "justify"><b>Epochs</b> - A complete pass through the whole training dataset while training is referred as a epoch, you can control that how much your model gets trained by controlling the number of epochs or complete passes.</p>
   * <p align = "justify"><b>Neural Network</b> - Artificial neural networks (ANNs) are comprised of a node layers, containing an input layer, one or more hidden layers, and an output layer. Each node, or artificial neuron, connects to another and has an associated weight and threshold.</p>
  <p align = "center">
-  <img src = "https://github.com/zeus2x7/DL-Inverse-kinematics/blob/main/images/neural%20network.png" alt = "Neural Network"><br>fig3 <i>Neural Network</i></p>
+  <img src = "https://github.com/zeus2x7/DL-Inverse-kinematics/blob/main/Images%20and%20Videos/images/neural%20network%20(1).png" alt = "Neural Network"><br>fig3 <i>Neural Network</i></p>
 
   * <p align = "justify"><b>Adam</b> - Adam means Adaptative Moment Estimation. It will be used as the optimizer in this project for neural network weights and biases updatation </p>
  <p align = "center">
-  <img src = "https://github.com/zeus2x7/DL-Inverse-kinematics/blob/main/images/adam%20optimizer.png" alt = "Adam optimizer"><br>fig4 <i>Adam optimizer</i></p>
+  <img src = "https://github.com/zeus2x7/DL-Inverse-kinematics/blob/main/Images%20and%20Videos/images/adam%20optimizer%20(1).png" alt = "Adam optimizer"><br>fig4 <i>Adam optimizer</i></p>
   * <p align = "justify"><b>MAE</b> - MAE or Mean Absolute Error is the loss function to be used in this model</p>
   <p align = "center">
-  <img src = "https://github.com/zeus2x7/DL-Inverse-kinematics/blob/main/images/MAE%20loss%20function.png" alt = "Mean Absolute Error"><br>fig5 <i>Mean Absolute Error</i></p>
+  <img src = "https://github.com/zeus2x7/DL-Inverse-kinematics/blob/main/Images%20and%20Videos/images/MAE%20loss%20function.png" alt = "Mean Absolute Error"><br>fig5 <i>Mean Absolute Error</i></p>
 
 
 ## Cost Structure
