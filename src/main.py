@@ -1,16 +1,12 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 import tensorflow as tf
 import numpy as np
 import math
 import streamlit as st
 
 
-# In[2]:
 
 
 x1_data=[]
@@ -19,19 +15,13 @@ theta1_data=[]
 theta2_data=[]
 
 
-# In[5]:
 
 
 model1 = tf.keras.models.load_model('parameters_model1.h5')
 
 
-# In[16]:
-
 
 model2 = tf.keras.models.load_model('parameters_model2.h5')
-
-
-# In[43]:
 
 
 t =np.zeros(2)
@@ -41,9 +31,6 @@ c = tf.convert_to_tensor(t , dtype =float)
 d =tf.reshape(c, (-1,2)) 
 f = model1.predict(d)
 f
-
-
-# In[19]:
 
 
 a =math.pi/180
@@ -60,8 +47,6 @@ def y_data(theta_1,theta_2):
   y = math.sin(theta1) + math.sin(theta1 + theta2)
   return float(y)
 
-
-# In[46]:
 
 
 st.title("MARS Open Project")
@@ -111,13 +96,7 @@ st.markdown(""" made with :heart: by Aditya Raj and Rajib
 """,True)
 
 
-# In[ ]:
 
-
-
-
-
-# In[ ]:
 
 
 

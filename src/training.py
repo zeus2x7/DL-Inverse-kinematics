@@ -3,7 +3,6 @@
 
 # ### IMPORTING REQUIRED LIBRARIES AND MODULES :- 
 
-# In[58]:
 
 
 import tensorflow as tf
@@ -19,9 +18,6 @@ tf.random.set_seed(42)
 
 
 # ### CREATING DATASET(GENERATING ANGLES)
-
-# In[59]:
-
 
 '''
 a1=[]
@@ -57,14 +53,8 @@ with open(filename, 'w') as csvfile:
 '''
 
 
-# In[60]:
-
 
 angle = np.loadtxt('angles_larger_data.csv', delimiter=',', dtype=np.float32 , skiprows=1)
-
-
-# In[61]:
-
 
 a =math.pi/180
 
@@ -101,9 +91,6 @@ for i in range(1036800):
   s[i][4] = angle[p][1]
 
 
-# In[62]:
-
-
 s =tf.constant(s)
 data1 = s
 train_input = data1[:836800,1:3]
@@ -122,7 +109,6 @@ test_output_short2 = data1[836870:836880, 4:]
 
 # ### Defining Neural Net for theta1
 
-# In[87]:
 
 
 model1 = seq([den(2 ,activation='relu'),
@@ -137,25 +123,16 @@ model1.compile(optimizer ='adam', loss ='mae')
 
 # ### Training and validatating  model1
 
-# In[88]:
-
-
 model1.fit(train_input, train_output1,
           validation_data=(val_input,val_output1) ,epochs= 250 )
 
 
 # #### Evaluating the performance of model1
 
-# In[89]:
-
-
 model1.evaluate(test_input, test_output1)
 
 
 # #### predicting and comparing with a small data
-
-# In[75]:
-
 
 test = model1.predict(test_input_short)
 print(test)
@@ -163,9 +140,6 @@ print(test_output_short1)
 
 
 # ### Training and validatating  model2
-
-# In[76]:
-
 
 model2 = seq([den(2 ,activation='relu'),
               den(16,activation ='relu'),
@@ -179,7 +153,7 @@ model2.compile(optimizer ='adam', loss ='mae')
 
 # #### Training and validating model2
 
-# In[53]:
+
 
 
 model2.fit(train_input, train_output2,
@@ -188,16 +162,13 @@ model2.fit(train_input, train_output2,
 
 # #### evaluating the model2
 
-# In[54]:
 
 
 model2.evaluate(test_input, test_output2)
 
 
 # #### predicting the outcomes of model2 over a small data
-# 
 
-# In[55]:
 
 
 test = model2.predict(test_input_short)
@@ -205,17 +176,13 @@ print(test)
 print(test_output_short2)
 
 
-# 
 # ### saving the models
 
-# In[158]:
 
 
 model1.save('parameters_model1.h5')
 model2.save('parameters_model2.h5')
 
-
-# In[ ]:
 
 
 
